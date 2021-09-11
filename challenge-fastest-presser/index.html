@@ -16,7 +16,21 @@
   </head>
 
   <body>
-    <div class="content"></div>
+    <div class="gameContainer">
+      <h1>Fastest Presser</h1>
+      <form>
+        <input type="number" value="seconds" id="setTime"></input>
+        <button id="startGameBtn" type="button">Start Game!</button>
+      </form>
+    </div>
+    <div class="leftBoxContainer">
+      <h2>Press S</h2>
+      <span id="leftCount"></span>
+    </div>
+    <div class="rightBoxContainer">
+      <h2>Press L</h2>
+      <span id="rightCount"></span>
+    </div>
   </body>
 
   <script src="script.js"></script>
